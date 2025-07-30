@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 from fastapi import HTTPException, Depends, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from models.user import UserResponse
+from database import get_database
 import os
 
 # JWT Configuration
