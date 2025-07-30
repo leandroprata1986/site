@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
-import { User, GraduationCap, Award } from 'lucide-react';
+import { User, GraduationCap, Award, BookOpen } from 'lucide-react';
 import { professors } from '../mock';
 
 const ProfessorsSection = () => {
